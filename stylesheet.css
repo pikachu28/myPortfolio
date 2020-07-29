@@ -1,0 +1,45 @@
+#carrerobj {
+  background-color: rgba(124, 161, 247,0.6);
+  width: 500px;
+  border: 1px solid black;
+  padding: 7px;
+  margin: 20px 20px 20px 3px;
+}
+.column {
+  float: left;
+}
+
+.left{
+  width: 50%;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+td{
+	padding: 5px;
+}
+
+body{
+  padding: 5px;
+	margin: 15px;
+	background: linear-gradient(to bottom, #89a8f0 0%, #cd89f0  100%);
+}
+
+.header{
+	background-color: rgba(33, 87, 173,0.15);
+  text-align: center;
+  width: 100%;
+}
+th{
+	background-color: rgba(124, 161, 247,0.6);
+}
+
+
+
+
+
+
+
